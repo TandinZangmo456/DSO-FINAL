@@ -82,9 +82,85 @@ CREATE TABLE bmi_records (
 
 Stage 1: Docker Configuration
 
-```sh
-```
+![alt text](image/4.png)
+
+Stage 2: Jenkins Setup 
+
+Create Jenkins pipeline
+![alt text](image/4.png)
+
+Create Jenkinsfile on our Project Root
+![alt text](image/5.png)
+
+![alt text](image/6.png)
+
+![alt text](image/7.png)
+
+Stage 3: GitHub Actions
+
+Set Up the Docker Hub Credentials in GitHub Secrets
+![alt text](image/8.png)
+
+Create GitHub Actions Workflow
+
+![alt text](image/9.png)
+
+Verifying Pipeline on github's action and docker hub
+
+![alt text](image/10.png)
+
+![alt text](image/11.png)
+
+Stage 3: Deploy to Render
+
+Backend
+![alt text](image/12.png)
+
+Frontend
+![alt text](image/13.png)
 
 
-```sh
-```
+## Conclusion
+
+# Conclusion
+
+In this project, we get to know how to:
+1. Extended a PERN Stack Application
+
+    - Implemented a BMI calculator feature
+
+    - Integrated frontend (React), backend (Express/Node), and database (PostgreSQL) components
+
+    - Developed proper database schema with validation constraints
+
+2. Containerized the Application
+
+    - Configured Docker for multi-service architecture
+
+    - Set up Docker volumes for persistent data storage
+
+    - Managed container orchestration with Docker Compose
+
+3. Implemented CI/CD Pipelines
+
+    - Established Jenkins automation for GitHub push triggers
+
+    - Created GitHub Actions workflows for automated Docker builds
+
+    - Configured proper credential management for both platforms
+
+4. Deployed to Cloud Infrastructure
+
+    - Managed PostgreSQL database on Render
+
+    - Deployed containerized backend and frontend services
+
+    - Configured environment variables and service dependencies
+
+5. Verified Full Pipeline Functionality
+
+    - Tested end-to-end workflow from local development to production
+
+    - Documented all steps with screenshots and configuration details
+
+    - Troubleshot and resolved deployment challenges
