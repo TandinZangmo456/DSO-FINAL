@@ -161,3 +161,9 @@ In this project, we get to know how to:
     - Documented all steps with screenshots and configuration details
 
     - Troubleshot and resolved deployment challenges
+
+
+
+### FRONTEND : https://pern-frontend-8qy8.onrender.com
+
+### BACKEND : https://pern-backend-2.onrender.com
