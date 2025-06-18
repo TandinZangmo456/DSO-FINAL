@@ -119,9 +119,6 @@ Backend
 Frontend
 ![alt text](image/13.png)
 
-
-## Conclusion
-
 # Conclusion
 
 In this project, we get to know how to:
